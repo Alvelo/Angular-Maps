@@ -14,7 +14,7 @@ import { LngLat, Map } from 'mapbox-gl';
 export class ZoomRangePageComponent implements AfterViewInit, OnDestroy {
   @ViewChild('map') public divMap?: ElementRef;
 
-  public zoom: number = 10;
+  public zoom: number = 9;
   public map?: Map;
   public currentLngLat: LngLat = new LngLat(-66.5901, 18.2208);
 
